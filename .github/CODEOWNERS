@@ -1,0 +1,39 @@
+# CODEOWNERS file for search-api-924
+# Global owners - will be requested for all PRs
+* @Armor-test/grp-api @Armor-test/squad-performance @Armor-test/grp-reporting
+
+# Directory ownership
+/docs/ @Armor-test/team-research @Armor-test/team-security
+/vendor/ @Armor-test/dept-data @Armor-test/team-research @Armor-test/dept-reporting
+/migrations/ @Armor-test/dept-identity @Armor-test/squad-mobile
+/ui/ @Armor-test/grp-payments @Armor-test/squad-tooling @Armor-test/dept-logging
+/modules/ @Armor-test/squad-product @Armor-test/squad-payments @Armor-test/dept-identity
+/app/ @Armor-test/squad-frontend @Armor-test/dept-test @Armor-test/grp-search
+/components/ @Armor-test/grp-reporting @Armor-test/team-security
+/deploy/ @Armor-test/dept-billing @Armor-test/grp-search
+/public/ @Armor-test/team-research @Armor-test/grp-storage @Armor-test/team-reporting
+/lib/ @Armor-test/squad-performance @Armor-test/squad-cloud
+/spec/ @Armor-test/squad-product @Armor-test/unit-test
+
+# File type ownership
+*.rb @Armor-test/squad-qa @Armor-test/squad-research
+*.yml @Armor-test/squad-ux @Armor-test/squad-database @Armor-test/dept-data
+*.go @Armor-test/team-security @Armor-test/grp-search
+*.properties @Armor-test/dept-security @Armor-test/grp-payments @Armor-test/dept-test
+*.ts @Armor-test/dept-test @Armor-test/dept-notifications
+*.xml @Armor-test/squad-research @Armor-test/grp-reporting
+*.js @Armor-test/squad-performance @Armor-test/team-reporting
+*.html @Armor-test/squad-frontend @Armor-test/squad-cloud
+*.yaml @Armor-test/grp-payments @Armor-test/team-notifications
+*.cs @Armor-test/team-governance @Armor-test/dept-security
+*.json @Armor-test/squad-ml @Armor-test/squad-performance @Armor-test/dept-reporting
+*.h @Armor-test/unit-governance @Armor-test/dept-release
+*.swift @Armor-test/dept-api @Armor-test/dept-reporting
+*.sh @Armor-test/unit-devops @Armor-test/grp-integration @Armor-test/dept-security
+*.scala @Armor-test/squad-mobile @Armor-test/team-security
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
